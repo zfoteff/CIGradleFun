@@ -33,7 +33,6 @@ public class FractionTest
     {
         assertEquals(fraction1.getNumerator(), 0);
         assertEquals(fraction1.getDenominator(), 1);
-        assertEquals(fraction1.getRealValue(), 0.0);
         System.out.println("Completed DVC test");
     }
 
@@ -42,6 +41,5 @@ public class FractionTest
     {
         assertEquals(fraction2.getNumerator(), 3);
         assertEquals(fraction2.getDenominator(), 4);
-        assertEquals(fraction2.getRealValue(), 0.75);
     }
 }
